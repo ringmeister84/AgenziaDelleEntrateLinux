@@ -1,9 +1,11 @@
 #/bin/bash
 
-if [ ! -d "$HOME/CUR2016" ]; then
-mkdir "$HOME/CUR2016"
-cd "$HOME/CUR2016"
-wget "http://jws.agenziaentrate.it/jws/dichiarazioni/2016/CUR16.jnlp"
+SW_NAME="UNI16"
+
+if [ ! -d "$HOME/$SW_NAME" ]; then
+mkdir "$HOME/$SW_NAME"
+cd "$HOME/$SW_NAME"
+wget "http://jws.agenziaentrate.it/jws/dichiarazioni/2016/UNI16.jnlp"
 fi
-javaws "$HOME/CUR2016/CUR16.jnlp"
+javaws "$HOME/$SW_NAME/$SW_NAME.jnlp"
 exit
