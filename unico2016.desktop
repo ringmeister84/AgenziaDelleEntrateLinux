@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Unico2016
+Exec=/opt/Unico2016.sh
+StartupNotify=true
+Categories=Office
+
+Terminal=true
+Icon=/opt/unico.png
